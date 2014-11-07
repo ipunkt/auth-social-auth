@@ -13,7 +13,7 @@
 			"php": ">=5.4.0",
 			"illuminate/support": "4.2.*",
 			"ipunkt/auth": "*",
-			"ipunkt/social-auth": "1.*"
+			"ipunkt/social-auth": "1.0rc1"
     },
     "autoload": {
         "psr-0": {
