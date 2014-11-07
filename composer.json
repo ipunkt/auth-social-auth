@@ -1,0 +1,25 @@
+{
+    "name": "ipunkt/auth-social-auth",
+    "description": "Ties in ipunkt/auth with ipunkt/social-auth to provider Database Profiles through the User model out of the box",
+    "keywords": ["laravel", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Speckmaier",
+            "email": "sps@ipunkt.biz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+		  "ipunkt/auth": "*@dev",
+		  "ipunkt/social-auth": "*@dev-unified-profile"
+			 
+    },
+    "autoload": {
+        "psr-0": {
+            "Ipunkt\\AuthSocialAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
