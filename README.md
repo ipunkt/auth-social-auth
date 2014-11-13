@@ -4,29 +4,9 @@ auth-social-auth
 This package is a simple bridge between ipunkt/auth and ipunkt/social-auth.  
 It extends the ipunkt/auth User model, implementing the ipunkt/social-auth HasProfileInterface through the EloquentHasProfile Trait.  
 
-# Install
+To use this package please do the read and follow the readmes of the used packages in the correct order:
+ 1. (optional) https://github.com/ipunkt/permissions
+ 2. https://github.com/ipunkt/auth
+ 3. https://github.com/ipunkt/social-auth
 
-## Installation
-
-Add to your composer.json following lines
-
-	"require": {
-		"ipunkt/auth-social-auth": "dev-master"
-	}
-
-## Configuration
-
-- Add 
-
-        'Ipunkt\Auth\AuthServiceProvider',
-    
-    to your service provider list.  
-- Publish the config by doing
-
-        `php artisan config:publish ipunkt/auth`
-	
-- Edit the 'user_table' variable to suit your needs
-- Migrate the user table by doing
-
-        `php artisan migrate --package=ipunkt/auth`
-
+That's it!
